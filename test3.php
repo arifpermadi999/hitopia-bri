@@ -66,8 +66,10 @@
         }
         return $res;
     }
-    echo getHighestPalindrome("3943",1);
+    echo getHighestPalindrome("931139",2);
     echo "\n";
-    echo getHighestPalindrome("932239",2);
+    echo getHighestPalindrome("2762",2);
+    echo "\n";
+    echo getHighestPalindrome("3893",2);
     echo "\n";
 ?>

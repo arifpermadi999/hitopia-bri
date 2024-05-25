@@ -36,4 +36,7 @@
         return $results;
     }
     print_r(weightedValidation('abbcccd',[1, 3, 9, 8]));
+    print_r(weightedValidation('addeef',[1, 4, 9, 10]));
+    print_r(weightedValidation('aabcccddd',[1, 3, 9, 12,20]));
+    print_r(weightedValidation('cccdddhh',[9, 10, 12, 16,20]));
 ?>
