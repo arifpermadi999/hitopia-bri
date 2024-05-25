@@ -69,4 +69,5 @@
     echo getHighestPalindrome("3943",1);
     echo "\n";
     echo getHighestPalindrome("932239",2);
+    echo "\n";
 ?>
