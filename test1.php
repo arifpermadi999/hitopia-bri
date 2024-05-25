@@ -1,10 +1,10 @@
 <?php
     function getValueChar($char){
         $number = 1;
-        $res  = 1;
+        $res  = 0;
         for($i='a';$i<='z';$i++){
             if($i == $char){
-                $res = $number;
+                return $number;
             }
             $number++;
         }
